@@ -9,6 +9,6 @@ There are many strategies that a day trader can exercise in order to make gains 
 
 Fix-Yahoo-Finance: https://github.com/ranaroussi/fix-yahoo-finance
 
-Naive-Bayes: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+Naive Bayes: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 
 Chart.js: http://www.chartjs.org/
