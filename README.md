@@ -4,7 +4,11 @@ These charts visualize the process of implementing the Naive Bayes algorithm to 
 
 There are many strategies that a day trader can exercise in order to make gains in the stock market. Some day traders trade on a daily basis and rely on determining the best time windows to buy and sell for each day. In contrast, other day traders rely on choosing particular days that indicate strong potential for positive returns, and make gains by buying stock in the morning and selling that stock in the afternoon. This is the type of day trader that would find this type of stock analysis useful. The code can be applied by collecting price data up to a particular day, and using that data to classify the next day as a favorable day to trade (1) or an unfavorable day to trade (0). If the next day is classified as a favorable day for trading, it would indicate that the day trader should buy stock in the morning once the market opens, as that day is likely to have significant returns according to our criteria.
 
+
 Links:
-  Fix-Yahoo-Finance: https://github.com/ranaroussi/fix-yahoo-finance
-  Naive-Bayes: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
-  Chart.js: http://www.chartjs.org/
+
+Fix-Yahoo-Finance: https://github.com/ranaroussi/fix-yahoo-finance
+
+Naive-Bayes: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+
+Chart.js: http://www.chartjs.org/
