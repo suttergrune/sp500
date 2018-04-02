@@ -1,6 +1,6 @@
 # Determining Ideal Days for Stock Market Day Trading: 24-Hour Binary Classification on S&P 500 Index
 
-https://sp500predict.herokuapp.com/
+https://sp500predict.herokuapp.com
 
 These 9 charts visualize the process of implementing the Naive Bayes algorithm to predict the performance of the stock market. The S&P 500's performance during the years 2011-2015 was used for the training data, while it's 2016-2017 performance was used for testing the algorithm. Fix-Yahoo-Finance was used for the collection of raw data. Python was used for indicator calculations as well as the Naive Bayes implementation. The Chart.js Javascript library was used for creating the charts.
 
@@ -13,4 +13,4 @@ Fix-Yahoo-Finance: https://github.com/ranaroussi/fix-yahoo-finance
 
 Naive Bayes: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 
-Chart.js: http://www.chartjs.org/
+Chart.js: http://www.chartjs.org
