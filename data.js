@@ -25,7 +25,9 @@ const data = {
   'Close2':[]
 };	
 
-d3.csv("finaldata.csv", function(df){
+// d3.csv("data.csv", function(df){
+// d3.csv("https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/suttergrune/sp500/master/data.csv", function(df){
+d3.csv("https://raw.githubusercontent.com/suttergrune/sp500/master/data.csv", function(df){
     const end2015 = df.length-504;
 		for(let i=1006; i<end2015; i++){
   			data['Date'].push(df[i]['Date']);
@@ -58,13 +60,13 @@ d3.csv("finaldata.csv", function(df){
         data['Close2'].push(Number(df[j]['Close']));
     };
 
+  	graph0(data);
   	graph1(data);
   	graph2(data);
   	graph3(data);
   	graph4(data);
   	graph5(data);
   	graph6(data);
-  	graph8(data);
-		graph10(data);
-    graph9(data);
+  	graph7(data);
+	graph8(data);
 });
