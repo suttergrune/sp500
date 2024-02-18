@@ -1,8 +1,6 @@
 
 # Determining Ideal Days for Stock Market Day Trading: 24-Hour Binary Classification on S&P 500 Index
 
-https://sp500predict.herokuapp.com
-
 These charts visualize the process of implementing the Naive Bayes Classifier to predict the stock market performance of the S&P 500. To collect the historical stock market data, [yfinance](https://github.com/ranaroussi/yfinance) was used to download data from Yahoo! Finance. The S&P 500's performance from years 2011-2015 was used for training the model, and the 2016-2017 data was used for testing the model. Python was used for indicator calculations and the Naive Bayes implementation. [Chart.js](https://www.chartjs.org) was used for creating the charts.
 
 There are many strategies that a day trader can exercise in order to realize gains in the stock market. One strategy is to determine a particular day, or set of days, that indicates a high chance of significant positive returns, and proceed to buy stock in the morning when the market opens, and then sell the stock in the late afternoon right before the market closes. This is the type of strategy that could benefit from this project's implementation of the Naive Bayes Classifier. The algorithm can be applied by collecting historical stock market data up to the closing price of the current day, and then using the Naive Bayes Classifier to classify the following day as either a favorable day or an unfavorable day for trading. If the day is classified as a favorable day for trading, it would indicate a high chance of significant positive returns, which would suggest that the day trader should buy stock in the morning when the market opens, and then sell the stock in the late afternoon right before the market closes.
